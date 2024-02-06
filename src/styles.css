@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding: 5rem 0 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f9f8;
+}
+
+main{
+    width: 80%;
+    max-width: 1600px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    background: transparent;
+}
+
+ul{
+    list-style-type: none;
+    padding: .5rem;
+}
+svg{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    fill:  #000;
+}
+
+
+button{
+    background: none;
+    border: none;
+}
+
+li, input{
+    padding: .5rem .25rem;
+    margin: .5rem 0;
+    border: 2px solid;
+    border-radius: 5px;
+}

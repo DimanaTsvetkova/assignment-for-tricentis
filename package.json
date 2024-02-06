@@ -1,0 +1,24 @@
+{
+  "name": "frontent-scenario",
+  "version": "1.0.0",
+  "description": "A FE task for Tricentis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "build::css": "postcss src/tailwind.css -o src/index.css",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimana Tsvetkova",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "prettier": "^3.2.5",
+    "vite": "^5.0.12"
+  }
+}
